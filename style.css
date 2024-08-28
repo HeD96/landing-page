@@ -1,0 +1,47 @@
+html {
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+header {
+    background-color: #1f2937;
+    border: 1px solid #1f2937;
+}
+
+.navbar {
+    width: 70%;
+    margin: auto;
+    margin-block: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: #e5e7eb;
+}
+
+.company-logo {
+    margin-right: auto;
+    font-size: 2rem;
+    color: #f9faf8;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    color: #c4c5c9;
+}
