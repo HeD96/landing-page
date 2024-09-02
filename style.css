@@ -173,3 +173,49 @@ footer {
     color: #e5e7eb;
     font-size: 1.5rem;
 }
+
+.signup {
+    color: #f9faf8;
+    padding: 8rem;
+}
+
+.signup_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: auto;
+}
+
+.signup_text h2 {
+    font-size: 2rem;
+}
+
+.signup_text p {
+    color: #e5e7eb;
+    font-size: 1.5rem;
+}
+
+.signup_button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.signup_button button {
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.signup_button button:hover {
+    border: 2px solid #c8cace;
+}
