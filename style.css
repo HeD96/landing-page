@@ -1,6 +1,6 @@
 html {
-    font-size: 12px;
-    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -26,7 +26,7 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     color: #e5e7eb;
 }
 
@@ -49,6 +49,7 @@ header {
 
 .hero {
     display: flex;
+    gap: 6rem;
 
     margin: 8rem auto;
     width: 60%;
@@ -60,12 +61,13 @@ header {
     flex: 1;
 }
 
-.hero_info {
-    padding-right: 4rem;
-}
+/* .hero_info {
+    padding-right: 10rem;
+} */
 
 .hero_info h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    line-height: 1;
     color: #f9faf8;
     font-weight: bolder;
     margin-bottom: 1rem;
@@ -73,13 +75,25 @@ header {
 
 .hero_info p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
     color: #f9faf8;
 }
 
 .hero_info .signup-btn {
-    height: 3rem;
-    width: 10rem;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.hero_info .signup-btn:hover {
+    background-color: #3579e6;
 }
 
 .hero_img {
@@ -90,5 +104,72 @@ header {
     position: relative;
     font-size: 1.5rem;
     text-align: center;
-    top: 42%;
+    top: 44%;
+}
+
+.info {
+    padding: 4rem;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    color: #1f2937;
+}
+
+.image-wrapper {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.example-img {
+    border: 5px solid #3882f6;
+    border-radius: 1.5rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+.example-img_caption {
+    font-size: 1.5rem;
+    color: rgb(97, 97, 97);
+    position: relative;
+    bottom: -15.5rem;
+    word-break: break-all;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding-block: 11rem 7rem;
+}
+
+.testimonial_text {
+    width: 35%;
+    margin: auto;
+}
+
+.testimonial_author {
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 1rem;
+}
+
+footer {
+    padding: 3rem;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 1.5rem;
 }
